@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://casinozondercruks.nl/sitemap.xml
+Sitemap: https://vitaliytymoshchuk02.github.io/public/sitemap.xml
