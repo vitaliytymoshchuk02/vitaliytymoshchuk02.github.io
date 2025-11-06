@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Over Ons | Casino Zonder Cruks</title>
+  <meta name="description" content="Leer meer over Casino Zonder Cruks. Onze missie is om Nederlandse spelers te helpen de beste crypto casino's zonder Cruks registratie te vinden.">
+  <meta name="keywords" content="over ons, casino zonder cruks, crypto casino, about us">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Over Ons | Casino Zonder Cruks">
+  <meta property="og:description" content="Leer meer over Casino Zonder Cruks en onze missie om spelers te helpen de beste crypto casino's te vinden.">
+  <meta property="og:type" content="website">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --bg-primary: oklch(0.145 0.02 250);
+      --bg-card: oklch(0.18 0.025 250);
+      --bg-muted: oklch(0.22 0.025 250);
+      --text-primary: oklch(0.98 0.01 250);
+      --text-muted: oklch(0.65 0.015 250);
+      --border: oklch(0.25 0.03 250);
+      --neon-cyan: oklch(0.75 0.18 195);
+      --neon-purple: oklch(0.65 0.25 300);
+      --neon-gold: oklch(0.78 0.15 85);
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+    }
+
+    /* Header */
+    header {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(23, 23, 28, 0.8);
+    }
+
+    .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1.25rem;
+      font-weight: 700;
+      text-decoration: none;
+      color: var(--text-primary);
+    }
+
+    .logo svg {
+      width: 2rem;
+      height: 2rem;
+      color: var(--neon-cyan);
+    }
+
+    nav {
+      display: none;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: var(--text-primary);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--neon-cyan);
+    }
+
+    @media (min-width: 768px) {
+      nav {
+        display: flex;
+      }
+    }
+
+    /* Card */
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 0.75rem;
+      padding: 2rem;
+      backdrop-filter: blur(10px);
+      margin-bottom: 2rem;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      margin-top: 4rem;
+      padding: 2rem 0;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    @media (min-width: 768px) {
+      .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.3s;
+    }
+
+    .footer-links a:hover {
+      color: var(--text-primary);
+    }
+
+    .footer-disclaimer {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      text-align: center;
+    }
+
+    .footer-copyright {
+      margin-top: 1.5rem;
+      text-align: center;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    /* Utilities */
+    .text-lg {
+      font-size: 1.125rem;
+    }
+
+    .text-2xl {
+      font-size: 1.5rem;
+    }
+
+    .text-3xl {
+      font-size: 1.875rem;
+    }
+
+    .text-4xl {
+      font-size: 2.25rem;
+    }
+
+    .font-semibold {
+      font-weight: 600;
+    }
+
+    .font-bold {
+      font-weight: 700;
+    }
+
+    .text-muted {
+      color: var(--text-muted);
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
+    .max-w-4xl {
+      max-width: 56rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .mb-4 {
+      margin-bottom: 1rem;
+    }
+
+    .mb-6 {
+      margin-bottom: 1.5rem;
+    }
+
+    .mt-6 {
+      margin-top: 1.5rem;
+    }
+
+    /* Hero */
+    .hero-about {
+      text-align: center;
+      padding: 3rem 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 3rem;
+    }
+
+    .hero-about h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+      background: linear-gradient(to right, var(--neon-cyan), var(--neon-purple), var(--neon-gold));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    @media (min-width: 768px) {
+      .hero-about h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .feature-box {
+      text-align: center;
+      padding: 2rem;
+      border-radius: 0.75rem;
+      border: 1px solid rgba(0, 255, 255, 0.3);
+      background: rgba(255, 255, 255, 0.03);
+      backdrop-filter: blur(10px);
+      margin-bottom: 1.5rem;
+    }
+
+    .feature-icon {
+      width: 3rem;
+      height: 3rem;
+      margin: 0 auto 1rem;
+      color: var(--neon-cyan);
+    }
+
+    .grid {
+      display: grid;
+      gap: 1.5rem;
+    }
+
+    .grid-3 {
+      grid-template-columns: 1fr;
+    }
+
+    @media (min-width: 768px) {
+      .grid-3 {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="logo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="8" cy="8" r="6"/>
+            <path d="M18.09 10.37A6 6 0 1 1 10.34 18"/>
+            <path d="M7 6h1v4"/>
+            <path d="m16.71 13.88.7.71-2.82 2.82"/>
+          </svg>
+          <span>Casino Zonder Cruks</span>
+        </a>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/newlucky-review">NewLucky Review</a>
+          <a href="/about">Over ons</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top: 2rem; padding-bottom: 3rem;">
+    <!-- Hero -->
+    <div class="hero-about">
+      <h1>Over Ons</h1>
+      <p class="text-lg text-muted">Jouw betrouwbare gids voor crypto casino's zonder Cruks</p>
+    </div>
+
+    <div class="max-w-4xl">
+      <!-- Mission -->
+      <div class="card">
+        <h2 class="text-3xl font-bold mb-4">Onze Missie</h2>
+        <p class="text-lg text-muted mb-4">
+          Casino Zonder Cruks is opgericht met één duidelijke missie: Nederlandse spelers helpen de beste en meest betrouwbare crypto casino's te vinden die niet zijn aangesloten bij het Cruks-systeem.
+        </p>
+        <p class="text-lg text-muted mb-4">
+          Wij begrijpen dat veel spelers op zoek zijn naar meer vrijheid en privacy bij het online gokken. Daarom testen en beoordelen wij zorgvuldig crypto casino's die voldoen aan de hoogste normen van veiligheid, eerlijkheid en gebruikerservaring.
+        </p>
+      </div>
+
+      <!-- What We Do -->
+      <div class="card">
+        <h2 class="text-3xl font-bold mb-4">Wat Wij Doen</h2>
+        <p class="text-lg text-muted mb-6">
+          Ons team van ervaren casino-experts test en beoordeelt crypto casino's op basis van verschillende criteria:
+        </p>
+        <div class="grid grid-3">
+          <div class="feature-box">
+            <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+            <h3 class="font-semibold mb-2">Veiligheid</h3>
+            <p class="text-muted" style="font-size: 0.875rem;">Licenties, encryptie en beveiliging</p>
+          </div>
+          <div class="feature-box">
+            <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="8" cy="8" r="6"/>
+              <path d="M18.09 10.37A6 6 0 1 1 10.34 18"/>
+              <path d="M7 6h1v4"/>
+              <path d="m16.71 13.88.7.71-2.82 2.82"/>
+            </svg>
+            <h3 class="font-semibold mb-2">Betalingen</h3>
+            <p class="text-muted" style="font-size: 0.875rem;">Snelheid en betrouwbaarheid</p>
+          </div>
+          <div class="feature-box">
+            <svg class="feature-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+            </svg>
+            <h3 class="font-semibold mb-2">Spellen</h3>
+            <p class="text-muted" style="font-size: 0.875rem;">Kwaliteit en variatie</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Our Values -->
+      <div class="card">
+        <h2 class="text-3xl font-bold mb-4">Onze Waarden</h2>
+        
+        <h3 class="text-2xl font-semibold mb-3 mt-6">Transparantie</h3>
+        <p class="text-muted mb-4">
+          Wij geloven in volledige transparantie. Al onze reviews zijn eerlijk en onbevooroordeeld. We vermelden duidelijk wanneer we affiliate links gebruiken en laten ons nooit beïnvloeden door commissies bij het beoordelen van casino's.
+        </p>
+
+        <h3 class="text-2xl font-semibold mb-3 mt-6">Expertise</h3>
+        <p class="text-muted mb-4">
+          Ons team bestaat uit ervaren gokexperts die jarenlange ervaring hebben met online casino's en cryptocurrency. We testen elk casino grondig voordat we het aanbevelen aan onze lezers.
+        </p>
+
+        <h3 class="text-2xl font-semibold mb-3 mt-6">Verantwoordelijkheid</h3>
+        <p class="text-muted mb-4">
+          Hoewel we casino's promoten, nemen we verantwoordelijk gokken zeer serieus. We moedigen al onze lezers aan om binnen hun grenzen te spelen en hulp te zoeken als gokken een probleem wordt.
+        </p>
+      </div>
+
+      <!-- Why Trust Us -->
+      <div class="card">
+        <h2 class="text-3xl font-bold mb-4">Waarom Ons Vertrouwen?</h2>
+        <ul style="list-style: disc; padding-left: 2rem; color: var(--text-muted); font-size: 1.125rem;">
+          <li style="margin-bottom: 0.75rem;">Onafhankelijke en eerlijke reviews</li>
+          <li style="margin-bottom: 0.75rem;">Jarenlange ervaring in de online casino industrie</li>
+          <li style="margin-bottom: 0.75rem;">Grondige testing van elk aanbevolen casino</li>
+          <li style="margin-bottom: 0.75rem;">Regelmatige updates van onze informatie</li>
+          <li style="margin-bottom: 0.75rem;">Focus op veiligheid en betrouwbaarheid</li>
+          <li style="margin-bottom: 0.75rem;">Transparantie over affiliate relaties</li>
+        </ul>
+      </div>
+
+      <!-- Contact -->
+      <div class="card">
+        <h2 class="text-3xl font-bold mb-4">Contact</h2>
+        <p class="text-lg text-muted mb-4">
+          Heb je vragen, suggesties of opmerkingen? We horen graag van je! Neem contact met ons op via:
+        </p>
+        <p class="text-lg text-muted">
+          <strong>Email:</strong> <span style="color: var(--neon-cyan);">matias.mills@mail.com</span>
+        </p>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="card" style="border-color: rgba(251, 191, 36, 0.3); background: rgba(251, 191, 36, 0.05);">
+        <h2 class="text-2xl font-bold mb-4">Belangrijke Disclaimer</h2>
+        <p class="text-muted mb-4">
+          Casino Zonder Cruks is een informatieve website die reviews en vergelijkingen biedt van online crypto casino's. Wij zijn geen online casino en bieden zelf geen gokdiensten aan.
+        </p>
+        <p class="text-muted mb-4">
+          Deze website bevat affiliate links. Wanneer je via onze links naar een casino gaat en daar speelt, kunnen wij een commissie ontvangen. Dit heeft geen invloed op onze beoordelingen en aanbevelingen.
+        </p>
+        <p class="text-muted">
+          <strong>18+ | Speel verantwoord | Gokken kan verslavend zijn</strong><br>
+          Als je hulp nodig hebt met gokproblemen, neem dan contact op met een professionele hulporganisatie.
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-links">
+          <a href="/">Home</a>
+          <a href="/newlucky-review">NewLucky Review</a>
+          <a href="/about">Over ons</a>
+        </div>
+        <p class="footer-disclaimer">
+          18+ | Speel verantwoord | Gokken kan verslavend zijn
+        </p>
+      </div>
+      <div class="footer-copyright">
+        <p>© 2025 Casino Zonder Cruks. Alle rechten voorbehouden. Deze website bevat affiliate links.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
